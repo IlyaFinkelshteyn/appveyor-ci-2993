@@ -2,9 +2,7 @@ version: '{build}'
 environment:
   APPVEYOR_IGNORE_COMMIT_FILTERING_ON_TAG: true
   MINVERBUILDMETADATA: build.%APPVEYOR_BUILD_NUMBER%
-image:
-- Visual Studio 2017
-- Ubuntu
+image: Visual Studio 2017
 pull_requests:
   do_not_increment_build_number: true
 branches:
