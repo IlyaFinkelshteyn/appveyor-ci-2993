@@ -17,7 +17,7 @@ build_script:
 - sh: ./build.sh
 test_script:
 - chcp
-- dotnet run -c Release --no-build -p BullseyeSmokeTester
+- ps: dotnet run -c Release --no-build -p BullseyeSmokeTester
 artifacts:
 - path: ./**/*.nupkg
 - path: BullseyeSmokeTester 
