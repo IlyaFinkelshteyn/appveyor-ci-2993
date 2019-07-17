@@ -20,4 +20,5 @@ build_script:
 test: off
 artifacts:
 - path: ./**/*.nupkg
+- path: BullseyeSmokeTester 
 deploy: off
