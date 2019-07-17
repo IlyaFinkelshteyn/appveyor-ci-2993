@@ -13,7 +13,7 @@ init:
 - cmd: dotnet --info
 - sh: dotnet --info
 build_script:
-- cmd: ./build.cmd
+- ps: ./build.cmd
 - sh: ./build.sh
 test_script:
 - chcp
